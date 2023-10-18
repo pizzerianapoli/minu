@@ -1,0 +1,55 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main {
+        width: 970px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main {
+        width: 760px;
+    }
+    .single-menu {
+        flex-direction: column;
+    }
+    .single-menu img {
+        margin-bottom: 25px;
+
+    }
+}
+
+@media only screen and (max-width:767px){
+    .main {
+        width: 320px;
+    }
+    .menu-column{
+        width: 45%;
+        padding-left: 2%;
+        margin-bottom: 30px;
+    
+    }
+    .menu-column1 {
+        width: 45%;
+        padding-left: 2%;
+        margin-bottom: 60px;
+    }
+    .single-menu {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        flex-direction: column;
+
+    }
+    .single-menu img {
+        margin-bottom: 25px;
+
+    }
+    .single-menu .menu-content h5 span {
+        line-height: 25px;
+    }
+    .cotacts-logo img {
+        height: 38px;
+    }
+    .pay img {
+        height: 35px;
+        margin: 1px;
+    }
+}
